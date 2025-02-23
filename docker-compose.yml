@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  text-processor-service:
+    image: harshini090/my-text-processor:latest    
+
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: none
+

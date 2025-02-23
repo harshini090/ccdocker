@@ -1,0 +1,3 @@
+NAME                                         READY   STATUS      RESTARTS      AGE
+text-processor-deployment-6f8c56d8f8-bwvtn   1/1     Completed   4 (59s ago)   100s
+text-processor-deployment-6f8c56d8f8-f4vxg   1/1     Completed   4 (54s ago)   100s

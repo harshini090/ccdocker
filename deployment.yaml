@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: text-processor-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: text-processor-app
+  template:
+    metadata:
+      labels:
+        app: text-processor-app
+    spec:
+      containers:
+      - name: my-text-processor
+        image: harshini090/my-text-processor:latest
+        imagePullPolicy: IfNotPresent
+
